@@ -4,3 +4,4 @@ sudo apt-get install cowsay -y
 
 grep -i "dragon" dragon.txt
 cat dragon.txt
+ls
