@@ -1,4 +1,4 @@
 FROM python:3.11-slim
 WORKDIR /app
 COPY . .
-CMD ["python", "AreYouLucky.py"]
+CMD ["python", "./app/AreYouLucky.py"]
