@@ -13,14 +13,13 @@ jobs:
             - name: list files
               run: ls -ltra
 
-            - name: run shell script
+            - name: Run shell script
               run: |
-               chmod +x Cowsay.sh
-               ./Cowsay.sh
+                chmod +x Cowsay.sh
+                ./Cowsay.sh
 
-            - run: mkdir -p path/to/artifact
-            
-            - uses: actions/upload-artifact@v4
+            - name: Upload the dragon file
+              uses: actions/upload-artifact@v4
               with:
-                name: my-artifact
+                name: dragon-artwork-file
                 path: dragon.txt
