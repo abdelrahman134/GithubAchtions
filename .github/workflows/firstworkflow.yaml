@@ -13,4 +13,5 @@ jobs:
 
             - name: run shell script
               run: |
-                echo "Hello World fist workflow"
+               chmod +x HelloAbdelrahman.sh
+               ./HelloAbdelrahman.sh
