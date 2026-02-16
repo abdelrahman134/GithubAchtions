@@ -17,4 +17,4 @@ jobs:
               with:
                 context: .
                 push: true
-                tags: ${{ vars.DOCKER_USERNAME }}/areYouLucky:latest
+                tags: ${{ vars.DOCKER_USERNAME }}/areyoulucky:latest
