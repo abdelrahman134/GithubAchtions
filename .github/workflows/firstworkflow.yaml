@@ -1,0 +1,16 @@
+name: first-workflow
+
+on:
+    push:
+        branches: main
+jobs:
+    first_lab:
+        runs-on: ubuntu-latest
+        steps:
+
+            - name: list files
+              run: ls -ltra
+
+            - name: run shell script
+              run: |
+                echo "Hello World fist workflow"
