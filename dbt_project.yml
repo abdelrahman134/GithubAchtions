@@ -1,0 +1,9 @@
+name: 'my_simple_etl'
+version: '1.0.0'
+profile: 'default'
+
+model-paths: ["models"] 
+
+models:
+  my_simple_etl:
+    +materialized: table
