@@ -1,5 +1,5 @@
 import pandas as pd
-from et1 import transform
+from etl import transform
 
 def test_transfrom():
     input_df = pd.DataFrame({
