@@ -27,5 +27,5 @@ jobs:
               run: python etl.py
 
             - name: Step 3 - Run dbt Models
-              run: dbt run
+              run: dbt run --profiles-dir .
     
